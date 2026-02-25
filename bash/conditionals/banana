@@ -1,0 +1,13 @@
+#!/bin/bash
+case $1 in
+    yellow)
+         echo "yes it's yellow..."
+         ;;
+    blue)
+        echo "no it's not blue..."
+         ;;
+      *)
+       echo "usage: $0 {yellow|blue}"
+       exit 1
+         ;;
+esac
